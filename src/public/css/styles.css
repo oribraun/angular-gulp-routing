@@ -1,0 +1,92 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+html body h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+html body a {
+  text-decoration: none;
+}
+html body .input {
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+html body .input-result {
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  background: #ccc;
+  border-radius: 4px;
+  min-width: 196px;
+  margin-left: 10px;
+}
+html body .icon {
+  font-size: 22px;
+  cursor: pointer;
+  vertical-align: top;
+  margin: 5px;
+}
+html body .icon-plus {
+  color: blue;
+}
+html body .icon-minus {
+  color: red;
+}
+html body .selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+html body .users {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+html body .users li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .1em 0;
+  height: 1.8em;
+  border-radius: 4px;
+}
+html body .users li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+html body .users li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+html body .users .text {
+  position: relative;
+  top: -3px;
+}
+html body .users .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: .5em;
+  position: relative;
+  left: -1px;
+  top: -1px;
+  height: 1.85em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
